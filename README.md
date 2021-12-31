@@ -1,4 +1,4 @@
-# BBC-News-Text-Summarization
+# News-Text-Summarization
 Text Summarization is one of the classic problems that can be solved using Natural Language Processing. This project is an attempt towards preprocessing the text data for text summarization and demonstrating the two approaches towards Text Summarization using Natural Language Processing, namely
 1. Extractive Summarization
 2. Abstractive Summarization
