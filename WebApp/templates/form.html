@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} Summarizer Home Page {% endblock %}
+
+{% block body_block %}
+<div class="jumbotron text-center">
+    <p>
+        <form action = "{{ url_for('get_summary') }}" method="POST">
+            <input type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+            <div class="container">
+                <h2><label for="News Text" class="title_of_page">Text</label></h2><br>
+                <textarea name="news" placeholder="Enter your text", rows="30", cols = "120"></textarea>
+            </div><br>
+            <input type="submit" class="btn btn-primary" name="" value="Submit">
+        </form>
+    </p>
+</div>
+{% endblock %}
