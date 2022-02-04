@@ -3,4 +3,13 @@ WebApp/__pycache__
 glove.840B.300d.txt
 model_weights_02.h5
 .DS_Store/
-
+WebApp/__pycache__
+WebApp/summarizer/
+X_train.pickle
+y_train.pickle
+X_val.pickle
+y_val.pickle
+training_articles.csv
+training_summaries.csv
+validation_articles.csv
+validation_summaries.csv
